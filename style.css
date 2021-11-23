@@ -214,6 +214,7 @@ body {
     background-color: white;
     padding: 2.5rem 0;
     box-shadow: 0 0 .7rem rgba(0, 0, 0, .3);
+    z-index: 1;
 }
 
 .login-page-nav ul {
@@ -365,6 +366,38 @@ body {
 }
 /* end login  */
 /* end login nav */
+
+/* login model*/
+.login-model {
+    position: fixed;
+    top: 11.5rem;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 70rem;
+    padding: 2rem;
+    text-align: center;
+    box-shadow: 0 0 .7rem rgba(0, 0, 0, .3);
+    border-radius: 0 0 1rem 1rem;
+    display: none;
+}
+
+.login-model i {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    font-size: 1.3rem;
+    color: #868383;
+    cursor: pointer;
+
+}
+
+.login-model p {
+    margin: 2rem 1rem 0 1rem;
+    font-size: 1.6rem;
+    color: #868383;
+}
+/* end login model*/
 
 /* end login page */
 
