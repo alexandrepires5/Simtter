@@ -4,8 +4,8 @@ const loginPage = document.querySelector('.login-page');
 const middleContent = document.querySelector('.middle-content');
 const btnTop = document.querySelector('.btn-top');
 const newsFeedPage = document.querySelector('.feeds-page');
-const loginModel = document.querySelector('.login-model');
-const loginModelX = document.querySelector('.login-model i');
+const loginModal = document.querySelector('.login-modal');
+const loginModalX = document.querySelector('.login-modal i');
 const loginFormBtn = document.querySelector('.login-form-btn');
 const postBtn = document.querySelector('.post-btn');
 const modalWrapper = document.querySelector('.modal-wrapper');
@@ -44,13 +44,13 @@ btnTop.addEventListener('click', () => {
         newsFeedPage.style.display = 'block';
     } else {
         goToLoginPage();
-        loginModel.style.display = 'block';
+        loginModal.style.display = 'block';
     }
 });
 
 // Login page
-loginModelX.addEventListener('click', () => {
-    loginModel.style.display = 'none';
+loginModalX.addEventListener('click', () => {
+    loginModal.style.display = 'none';
 }); 
 
 loginFormBtn.addEventListener('click', () => {
@@ -60,7 +60,7 @@ loginFormBtn.addEventListener('click', () => {
         loginPage.style.display = 'none';
         newsFeedPage.style.display = 'block';
     } else {
-        loginModel.style.display = 'block';
+        loginModal.style.display = 'block';
     }
 }); 
 

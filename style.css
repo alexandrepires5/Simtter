@@ -367,8 +367,8 @@ body {
 /* end login  */
 /* end login nav */
 
-/* login model*/
-.login-model {
+/* login modal*/
+.login-modal {
     position: fixed;
     top: 11.5rem;
     left: 50%;
@@ -382,7 +382,7 @@ body {
     display: none;
 }
 
-.login-model i {
+.login-modal i {
     position: absolute;
     top: 2rem;
     right: 2rem;
@@ -392,12 +392,12 @@ body {
 
 }
 
-.login-model p {
+.login-modal p {
     margin: 2rem 1rem 0 1rem;
     font-size: 1.6rem;
     color: #868383;
 }
-/* end login model*/
+/* end login modal*/
 
 /* end login page */
 
@@ -1145,7 +1145,7 @@ body {
         width: 80rem;
     }
 
-    .login-model {
+    .login-modal {
         width: 60rem;
     }
 
@@ -1200,7 +1200,7 @@ body {
         width: 60rem;
     }
 
-    .login-model {
+    .login-modal {
         width: 50rem;
     }
 }
@@ -1215,7 +1215,7 @@ body {
         width: 50rem;
     }
 
-    .login-model {
+    .login-modal {
         width: 40rem;
     }
 
@@ -1294,15 +1294,15 @@ body {
         font-size: 1.5rem;
     }
 
-    .login-model {
+    .login-modal {
         width: 30rem;
     }
 
-    .login-model i {
+    .login-modal i {
         top: 2.5rem;
     }
 
-    .login-model p {
+    .login-modal p {
         font-size: 1.4rem;
     }
 
@@ -1399,7 +1399,7 @@ body {
         width: 100%;
     }
 
-    .login-model {
+    .login-modal {
         width: 25rem;
     }
 
